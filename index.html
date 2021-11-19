@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title><h1>Calculadora IMC</h1></title>
+</head>
+<body>
+    <section class="calculadora">
+    <div class="espacio1"><h2>Calculadora IMC</h2>
+        <h3>Descubra su indice de masa corporal</h3>
+        <form action="">
+        <label for="">Sexo</label>
+
+        <label class="Menusexo">
+            <input type="radio" id="inMasculino" name="sexoEscoger" value="M" checked />
+            <img src="./images/man.png">
+        </label>
+    
+        <label class="Menusexo">
+            <input type="radio" id="inFemenino" name="sexoEscoger" value="F" />
+            <img src="./images/woman.png">
+        </label>
+
+
+        <br>
+        <label for="">Edad</label>
+        <input type="text" id="Edad" placeholder="Años">
+        <br>
+        <label for="">Peso</label>
+        <input type="text" id="Peso" placeholder="En kilogramos">
+        <br>
+        <label for="">Altura</label>
+        <input type="text" id="Altura" placeholder="En centimetros">
+        <br>
+    </form>
+        <button id="btnCalcIMC" onclick="calIMC()">Calcular IMC</button>
+    </div>
+    <div id="cajonResultado" class="espacio2">
+        <div><h4>Su IMC es:</h4></div>
+        <div id="resultadoIMC"></div>
+        <br>
+        <div id="degradado"><div id="medidor">.</div></div>
+    </div>
+    <div id="infoIMC" class="espacio3">
+<ul>
+    <li>Bajo Peso</li>
+    <li>Saludable</li>
+    <li>Exceso de peso</li>
+    <li>Obeso</li>
+</ul>
+
+
+    </div>
+</section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
