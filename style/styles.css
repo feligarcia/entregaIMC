@@ -67,7 +67,7 @@ font-size: x-large;
 }
 
 ul{
-    background: linear-gradient(to bottom, rgb(111, 0, 255) 46.25%, rgb(0, 4, 255) 46.25%, rgb(0, 255, 42) 62.5%, rgb(255, 230, 0) 75%, rgb(255, 0, 0) 100%);
+    background: linear-gradient(to top, rgb(111, 0, 255) 46.25%, rgb(0, 4, 255) 46.25%, rgb(0, 255, 42) 62.5%, rgb(255, 230, 0) 75%, rgb(255, 0, 0) 100%);
     list-style: none;
     color:black;
     font-weight: 600;
